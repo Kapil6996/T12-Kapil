@@ -104,11 +104,6 @@ export default function App() {
         
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between relative z-10 gap-4">
           <div>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="h-2 w-2 rounded-full bg-[#06B6D4] animate-ping"></span>
-              <span className="h-2 w-2 rounded-full bg-[#06B6D4] absolute"></span>
-              <span className="text-xs uppercase tracking-widest text-[#06B6D4] font-semibold font-mono ml-2">Live Automation Active</span>
-            </div>
             <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white flex items-center gap-3 print:text-black print-heading-main">
               GO-BRICS Lead Capture Automation
             </h1>
@@ -304,7 +299,7 @@ export default function App() {
             <p className="text-sm text-slate-500 font-mono mb-4">Click steps on screen to review technical details & JSON sample payloads</p>
           </div>
 
-          <div className="bg-[#111625] border border-[#242C3F] rounded-xl p-4 md:p-8 print-card-style">
+          <div className="bg-[#111625] border border-[#242C3F] rounded-xl p-4 md:p-8 print-card-style print-card-allow-break">
             
             {/* Instructions */}
             <div className="mb-6 flex items-center justify-between no-print">
@@ -771,7 +766,7 @@ export default function App() {
           </div>
 
           {/* Logs Table */}
-          <div className="bg-[#111625] border border-[#242C3F] rounded-xl overflow-hidden print-card-style">
+          <div className="bg-[#111625] border border-[#242C3F] rounded-xl overflow-hidden print-card-style print-card-allow-break">
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-left text-sm">
                 <thead>

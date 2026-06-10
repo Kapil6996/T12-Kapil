@@ -157,6 +157,10 @@ html, body {
     margin-bottom: 1.5rem !important;
   }
 
+  .print-card-allow-break {
+    page-break-inside: auto !important;
+  }
+
   /* Headings for print */
   .print-heading-main {
     color: #000000 !important;
